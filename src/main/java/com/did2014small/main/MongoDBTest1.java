@@ -42,7 +42,12 @@ public class MongoDBTest1 {
 		// ... code ... 
 		
 		// close connection 
-		entityManager.close();  
+		entityManager.close();
+
+		// EDIT TO PROD!
+
+		// QUALITY
+		entityManager.close();
 		
 		System.out.println("\nEntityManager closed");  
 		
