@@ -42,8 +42,13 @@ public class MongoDBTest1 {
 		// ... code ... 
 		
 		// close connection 
-		entityManager.close();  
-		
+		entityManager.close();
+
+		// OTHER EDIT TO QUALITY
+		for(Insegn i : insegnamenti) {
+			System.out.println(i.getNomeins());
+		}
+
 		System.out.println("\nEntityManager closed");  
 		
 	}  
